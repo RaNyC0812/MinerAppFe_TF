@@ -5,4 +5,5 @@ export class EmployeeType{
     type: string = ""
     descripcion: string=""
     employee:Employee = new Employee()
+    
 } 
