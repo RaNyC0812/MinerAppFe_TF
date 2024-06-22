@@ -1,9 +1,9 @@
 import { Mine } from './mine'; // Ajusta la ruta según la ubicación de tu modelo
 
 export class Employee {
-  employeeId: number = 0;
+  employeeId: number = 0; //Id de cada employee (empleado)
   firstName: string = "";
-  lastName: string = "";
+  lastName: string = "";  //lastname o apellido de empleados
   dateBirth: Date | null = null; // Usamos Date en lugar de LocalDate
   gender: string = "";
   hireDate: Date | null = null; // Usamos Date en lugar de LocalDate
