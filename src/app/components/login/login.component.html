@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.component.css">
+</head>
+<body>
+  
+  <!--ring div starts here -->
+<div class="ring">
+    <i style="--clr:#00ff0a;"></i>
+    <i style="--clr:#ff0057;"></i>
+    <i style="--clr:#fffd44;"></i>
+    <div class="login">
+      <h2>Login</h2>
+      <div class="inputBx">
+        <input type="text" placeholder="Username" [(ngModel)]="username">
+      </div>
+      <div class="inputBx">
+        <input type="password" placeholder="Password" [(ngModel)]="password">
+      </div>
+      <div class="inputBx">
+        <input type="submit" value="Sign in" (click)="login()">
+      </div>
+    </div>
+  </div>
+   <!--ring div end here-->
+</body>
+</html>

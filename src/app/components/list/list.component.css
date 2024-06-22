@@ -1,0 +1,41 @@
+.navigation-menu {
+    margin: 20px;
+  }
+  
+  .navigation-menu h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navigation-menu p {
+    margin-bottom: 10px;
+  }
+  
+  .navigation-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navigation-menu li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .navigation-menu a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .navigation-menu a:hover {
+    text-decoration: underline;
+  }
+
+  .card-body{
+    font-size: 15px; /*tamaño de letra*/ 
+  }
+
+  h1{
+    font-size: 30px; /*tamaño de titulo Dadhboard*/
+    font-weight: bold;  
+  }
+  
